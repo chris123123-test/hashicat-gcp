@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/battaglini-training/network/google"
-  version = "3.2.0"
+  version = "3.1.2"
   # insert required variables here
   network_name = "gurav-network"
   project_id = var.project
